@@ -27,6 +27,15 @@ class Bypass(object):
         # Current nesting level and max nesting level
         self.max_nesting_lvl = 2
 
+        # Тут хранятся пользовательские пароли
+        self.user_passwords = ['pwd', '123456', 'password', 'qwerty']
+
+        # Показатель запаролен шелл или нет (по умолчанию считаем что нет)
+        self.is_secret_shell = False
+
+        # уникальные внешние ссылки
+        self.external_urls = []
+
         # webdriver
         self.driver = webdriver.Firefox(executable_path=r'./geckodriver')
         logging.info("Driver started")
@@ -119,6 +128,8 @@ class Bypass(object):
         while self.storage.is_okey():
 
             link = self.storage.get_link()
+            if link == False:
+                return
 
             # получаем ссылку для обхода
             try:
@@ -131,6 +142,10 @@ class Bypass(object):
             
             # добавляем найденные ссылки в хранилище
             self.storage.add_links(page.links)
+
+            # сохраняем внешние ссылки 
+            for ex_url in page.external_url:
+                self.external_urls.append(ex_url)
 
             # обходим страничку
             self.crawl_it(page, link)
@@ -162,6 +177,38 @@ class Bypass(object):
             submit_inputs = page.forms[form]['submit']
             password_inputs = page.forms[form]['password']
             button_inputs = page.forms[form]['button']
+
+            ######################################################################
+            # Тут разбираемся что делать с паролем
+
+            # Проверяем формы на наличие поля пароля и пробуем пароли из известных            
+            for pwd_input in password_inputs:
+                self.is_secret_shell = True
+                for pwd in self.user_passwords:
+                    try:
+                        self.driver.find_element_by_xpath(pwd_input).clear()
+                        self.driver.find_element_by_xpath(pwd_input).send_keys(pwd)
+                    except:
+                        print('Не получилось ввести пароль')
+                    try:
+                        self.driver.find_element_by_xpath(submit_inputs[0]).click()
+                    except:
+                        print('Не получилось нажать на кнопку отправки пароля')
+
+                    if self.driver.current_url != current_link:
+                        self.is_secret_shell = False
+                        print('Пароль взломан')
+                        break
+
+            # Случай если поле с паролем лежит вне формы 
+            # Пока считаем что такого не бывает
+
+
+            # Если шелл запаролен то маякнем пользователю
+            if self.is_secret_shell:
+                logging.warning('я не знаю пароля, ПОМОГИ')
+
+            ######################################################################
 
             # Заполняем форму
             self.fill_form(text_inputs, checkbox_inputs, radio_inputs)
@@ -219,5 +266,6 @@ class Bypass(object):
                     print('Не могу выбрать радиокнопку')
 
     def return_to_current_page(self, current_link):
+        # сохряняет текущую ссылку и вернется на указанную
         self.storage.add_links(self.driver.current_url)
         self.driver.get(current_link)

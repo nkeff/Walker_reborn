@@ -18,6 +18,10 @@ class Page:
         # Сейчас это формы и ссылки
         self.forms = dict()
         self.links = []
+        self.password = []
+
+        # Внешние ссылки могут дать информацию о создателе шелла
+        self.external_url = []
 
         # Текст страницы
         self.source = source
@@ -32,7 +36,20 @@ class Page:
         # Находим теги форм и раскладываем их на состовляющие 
         self.find_forms()
 
+        #
+        self.find_password()
 
+
+    def find_password(self):
+    	# Список синонимов для поля ввода пароля
+    	pwd_list = ['password', 'login', 'passwd', 'pwd']
+
+    	#если такой тег найдется - сохранить 
+    	for tag in self.soup('input'):
+    		if tag['type'] == 'password' or tag.name in pwd_list or tag.get('id') in pwd_list:
+    			self.password.append(utils.xpath_soup(tag))
+
+    	
 
     def find_forms(self):
         # Extract all <form> and their <inpus>
@@ -67,9 +84,11 @@ class Page:
                 if stop_word in link:
                     mark = 1
 
-            # Проверяем не внешняя ли это ссылка
+            # Проверяем не внешняя ли это ссылка (внешнюю сохраним)
             if self.base_url not in link:
                 mark = 1
+            elif validators.url(link):
+            	self.external_url.append(link)
 
             if validators.url(link) and mark == 0:
                 self.links.append(link)

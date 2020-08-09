@@ -7116,3 +7116,126 @@ JavaScript error: http://aidbox.ru:8001/cutia.php?y=/var/www/html/&x=netsploit, 
 JavaScript error: http://aidbox.ru:8001/cutia.php?y=/var/www/html/&view=/var/www/html/cutia.php, line 1: TypeError: document.getElementById(...) is null
 JavaScript error: http://aidbox.ru:8001/cutia.php?y=/var/www/html/&view=/var/www/html/web_shell.info, line 1: TypeError: document.getElementById(...) is null
 1596821313287	Marionette	INFO	Stopped listening on port 41045
+1596929892400	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileMjHzuE"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596929899309	Marionette	INFO	Listening on port 37089
+1596929899401	Marionette	WARN	TLS certificate errors will be ignored for this session
+1596929952206	Marionette	INFO	Stopped listening on port 37089
+1596929959113	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile95b6Ws"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596929970765	Marionette	INFO	Listening on port 36363
+1596929970869	Marionette	WARN	TLS certificate errors will be ignored for this session
+1596930003852	Marionette	INFO	Stopped listening on port 36363
+1596930130555	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileKrH4nJ"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596930136598	Marionette	INFO	Listening on port 43103
+1596930136644	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1596930171666	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilelZ5n48"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596930177449	Marionette	INFO	Listening on port 43403
+1596930177517	Marionette	WARN	TLS certificate errors will be ignored for this session
+1596930255725	Marionette	INFO	Stopped listening on port 43403
+1596930286980	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileffGyN2"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596930293786	Marionette	INFO	Listening on port 35349
+1596930293848	Marionette	WARN	TLS certificate errors will be ignored for this session
+1596930362101	Marionette	INFO	Stopped listening on port 35349
+1596930383437	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileHXZsGm"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596930389778	Marionette	INFO	Listening on port 39423
+1596930389839	Marionette	WARN	TLS certificate errors will be ignored for this session
+1596930393161	Marionette	INFO	Stopped listening on port 39423
+1596930917682	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileLJLx8O"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596930923575	Marionette	INFO	Listening on port 41313
+1596930923629	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://aidbox.ru:8002/b374kv2.1.php?sorttable, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: http://aidbox.ru:8002/b374kv2.1.php?sorttable, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: http://aidbox.ru:8002/b374kv2.1.php?sorttable, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: http://aidbox.ru:8002/b374kv2.1.php?sorttable, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: http://aidbox.ru:8002/b374kv2.1.php?sorttable, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: http://aidbox.ru:8002/b374kv2.1.php?sorttable, line 1: SyntaxError: expected expression, got '<'
+1596930939304	Marionette	INFO	Stopped listening on port 41313
+1596931189357	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileH2N4l7"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596931195252	Marionette	INFO	Listening on port 39659
+1596931195303	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://aidbox.ru:8002/b374kv2.1.php?sorttable, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: http://aidbox.ru:8002/b374kv2.1.php?sorttable, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: http://aidbox.ru:8002/b374kv2.1.php?sorttable, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: http://aidbox.ru:8002/b374kv2.1.php?sorttable, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: http://aidbox.ru:8002/b374kv2.1.php?sorttable, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: http://aidbox.ru:8002/b374kv2.1.php?sorttable, line 1: SyntaxError: expected expression, got '<'
+1596931204002	Marionette	INFO	Stopped listening on port 39659
+1596931300489	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilezJ6Sv3"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596931306651	Marionette	INFO	Listening on port 35179
+1596931306664	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://aidbox.ru:8002/b374kv2.1.php?sorttable, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: http://aidbox.ru:8002/b374kv2.1.php?sorttable, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: http://aidbox.ru:8002/b374kv2.1.php?sorttable, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: http://aidbox.ru:8002/b374kv2.1.php?sorttable, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: http://aidbox.ru:8002/b374kv2.1.php?sorttable, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: http://aidbox.ru:8002/b374kv2.1.php?sorttable, line 1: SyntaxError: expected expression, got '<'
+1596931312214	Marionette	INFO	Stopped listening on port 35179
+1596931383495	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile5tEC7X"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596931389590	Marionette	INFO	Listening on port 43523
+1596931389648	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://aidbox.ru:8002/b374kv2.1.php?sorttable, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: http://aidbox.ru:8002/b374kv2.1.php?sorttable, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: http://aidbox.ru:8002/b374kv2.1.php?sorttable, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: http://aidbox.ru:8002/b374kv2.1.php?sorttable, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: http://aidbox.ru:8002/b374kv2.1.php?sorttable, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: http://aidbox.ru:8002/b374kv2.1.php?sorttable, line 1: SyntaxError: expected expression, got '<'
+1596931393750	Marionette	INFO	Stopped listening on port 43523
+1596931450647	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWagkty"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596931456711	Marionette	INFO	Listening on port 39323
+1596931456805	Marionette	WARN	TLS certificate errors will be ignored for this session
+1596931467504	Marionette	INFO	Stopped listening on port 39323
+1596931483102	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilexA2TED"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596931488909	Marionette	INFO	Listening on port 42899
+1596931488955	Marionette	WARN	TLS certificate errors will be ignored for this session
+1596931500120	Marionette	INFO	Stopped listening on port 42899
+1596931638293	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiletPbeBV"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596931646289	Marionette	INFO	Listening on port 35447
+1596931646323	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://aidbox.ru:8001/cutia.php?y=/var/www/html/&x=mysql, line 1: TypeError: document.getElementById(...) is null
+JavaScript error: http://aidbox.ru:8001/cutia.php?y=%2Fvar%2Fwww%2Fhtml%2F&x=mysql&sqlhost=localhostSOME+TEXT&sqluser=rootSOME+TEXT&sqlpass=passwordSOME+TEXT&sqlport=3306SOME+TEXT&submitsql=Go+%21, line 1: TypeError: document.getElementById(...) is null
+JavaScript error: http://aidbox.ru:8001/cutia.php?y=/var/www/html/&x=mysql, line 1: TypeError: document.getElementById(...) is null
+JavaScript error: http://aidbox.ru:8001/cutia.php?y=/var/www/html/&x=phpinfo, line 1: TypeError: document.getElementById(...) is null
+JavaScript error: http://aidbox.ru:8001/cutia.php?y=/var/www/html/&x=netsploit, line 1: TypeError: document.getElementById(...) is null
+JavaScript error: http://aidbox.ru:8001/cutia.php?y=/var/www/html/&view=/var/www/html/cutia.php, line 1: TypeError: document.getElementById(...) is null
+JavaScript error: http://aidbox.ru:8001/cutia.php?y=/var/www/html/&view=/var/www/html/web_shell.info, line 1: TypeError: document.getElementById(...) is null
+1596931674266	Marionette	INFO	Stopped listening on port 35447
+1596931808174	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileROCFFa"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596931814239	Marionette	INFO	Listening on port 41615
+1596931814353	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://aidbox.ru:8002/anonexploitershell.php?defacer, line 1: ReferenceError: g is not defined
+1596931819484	Marionette	INFO	Stopped listening on port 41615
+1596932059554	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile2xh1qz"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596932065973	Marionette	INFO	Listening on port 44799
+1596932066015	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://aidbox.ru:8002/anonexploitershell.php?defacer, line 1: ReferenceError: g is not defined
+JavaScript error: http://aidbox.ru:8002/anonexploitershell.php?back_connecter, line 1: ReferenceError: g is not defined
+1596932076139	Marionette	INFO	Stopped listening on port 44799
+1596932100107	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile2KYady"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596932106066	Marionette	INFO	Listening on port 41957
+1596932106153	Marionette	WARN	TLS certificate errors will be ignored for this session
+1596932120627	Marionette	INFO	Stopped listening on port 41957
+1596932277006	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileqIIZqu"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596932282889	Marionette	INFO	Listening on port 42985
+1596932282990	Marionette	WARN	TLS certificate errors will be ignored for this session
+1596932283926	Marionette	INFO	Stopped listening on port 42985
+console.error: services.settings: 
+  main/cfr-fxa Signature failed  TypeError: NetworkError when attempting to fetch resource.

@@ -46,12 +46,15 @@ class HandleStorage:
         if self.link_number >= len(self.storage[self.nesting_level]):
             self.nesting_level += 1
             self.link_number = 0
-            logging.error('new nesting level')
 
         self.passed_ways += 1
         self.link_number += 1
 
-        return self.storage[self.nesting_level][self.link_number - 1]
+        try:
+        	res = self.storage[self.nesting_level][self.link_number - 1]
+        except:
+        	res = False
+        return res
 
 
     def get_all_ways(self):
